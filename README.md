@@ -1,2 +1,3 @@
 # pandera-docs
- Documentation generator for Pandera schemas.
+
+Documentation generator for [Pandera](https://www.union.ai/pandera) schemas.

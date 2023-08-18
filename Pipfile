@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+typing-extensions = "*"
+pydantic = "*"
+pandera = "*"
+
+[dev-packages]
+pytest = "*"
+pre-commit = "*"
+versioneer = "*"
+
+[requires]
+python_version = "3.10"
+
+[docs]
+mkdocs = "*"
+mkdocs-material = "*"
+mkdocstrings = {version = "*", extras = ["python"]}
